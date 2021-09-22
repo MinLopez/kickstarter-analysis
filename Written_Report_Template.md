@@ -14,7 +14,7 @@ Looking at the successes, there were more sucesses than failed or canceled throu
 It was also interesting to see that campaigns were not canceled in October throughout the years. That same month, there was an increase in both failed and sucessful campaigns. Overall failure of campaigns seemed steady throughout the year with the exception of October.
 
 ### Analysis of Outcomes Based on Goals
-![Outcomes_vs_Goals](Outcomes_vs_Goals)
+![Outcomes_vs_Goals.png](Outcomes_vs_Goals.png)
 I created a table per instruction for the outcomes based on goal. I looked at 3 outcomes: Successful, Failed, and Canceled. I also looked at their goal ranges which I had to calculate using an IFS() formula based on plays, outcome, and for most upper and lower ranges except the less than 1000 and greater than 50000. I also summed up the values and created percentages for each outcome based on these values. When created the line chart, the data was reversed of how I wanted to look at it. That is to say that the percentage was showing on the x-axis and the ranges were showing on the y-axis. I switched rows/columns to ensure I got the same view as the challenge suggested.
 I could see the inverse relationship between percentage sucessful and percentage failed. This is because there were no canceled projects. When successes went up, failures went down and vice versa.
 What was most interesting was that, generally speaking, a low goal was more sucessful than a high goal of >45000. Most sucessful goals were under 5000, where the sucesses steadied and dropped before there was a peak between 35000 and 45000.
