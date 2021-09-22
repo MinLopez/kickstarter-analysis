@@ -9,12 +9,14 @@ Provide a visual representation of the outcomes of similar play campaigns with v
 ## Analysis and Challenges
 ### Analysis of Outcomes Based on Launch Date
  ![Theater_Outcomes_vs_Launch.png](Theater_Outcomes_vs_Launch.png) 
+ 
 I created a chart that looked at theater. Theater includes plays, musicals, and spaces. I added a column to my existing table for the launch year. I used the formula =YEAR() to create it and used the modified launch date calculated from the unix date. I created a pivot table focusing on  the outcomes of successful, failed, and canceled and these were assigned both the legend as well as values. I also used years as my axis. The assignment also called for filters for Parent Category and Years so I added those as well.
 Looking at the successes, there were more sucesses than failed or canceled throughout the entire time except for December where canceled and sucessful seemed to intersect. Upon further review of the pivot table, it was clear they did not as successes is at 37 and failed is at 35.  It seems May was the most successful for theater from this chart as well.
 It was also interesting to see that campaigns were not canceled in October throughout the years. That same month, there was an increase in both failed and sucessful campaigns. Overall failure of campaigns seemed steady throughout the year with the exception of October.
 
 ### Analysis of Outcomes Based on Goals
 ![Outcomes_vs_Goals.png](Outcomes_vs_Goals.png)
+
 I created a table per instruction for the outcomes based on goal. I looked at 3 outcomes: Successful, Failed, and Canceled. I also looked at their goal ranges which I had to calculate using an IFS() formula based on plays, outcome, and for most upper and lower ranges except the less than 1000 and greater than 50000. I also summed up the values and created percentages for each outcome based on these values. When created the line chart, the data was reversed of how I wanted to look at it. That is to say that the percentage was showing on the x-axis and the ranges were showing on the y-axis. I switched rows/columns to ensure I got the same view as the challenge suggested.
 I could see the inverse relationship between percentage sucessful and percentage failed. This is because there were no canceled projects. When successes went up, failures went down and vice versa.
 What was most interesting was that, generally speaking, a low goal was more sucessful than a high goal of >45000. Most sucessful goals were under 5000, where the sucesses steadied and dropped before there was a peak between 35000 and 45000.
