@@ -15,7 +15,7 @@ I created a chart that looked at theater. Theater includes plays, musicals, and 
 Looking at the results, I noticed a few things. Looking at the successes, there were more sucesses than failed or canceled throughout the entire time except for December where canceled and sucessful seemed to intersect. Upon further review of the pivot table, it was clear they did not as successes is at 37 and failed is at 35.  The chart also makes it seem as though May was the most successful for theater from this chart as well as it is well over 100 successful outcomes. It was also interesting to see that campaigns were not canceled in October throughout the years. That same month of October, there was an increase in both failed and sucessful campaigns. Overall failure of campaigns seemed steady throughout the year with the exception of October.
 
 ### Analysis of Outcomes Based on Goals
-![Outcomes_vs_Goals](Outcomes_vs_Goals)
+![Outcomes_vs_Goals.png](Outcomes_vs_Goals.png)
 
 I created a table per instruction for the outcomes based on goal. I looked at 3 outcomes: Successful, Failed, and Canceled. I also looked at their goal ranges which I had to calculate using an IFS() formula based on plays, outcome, and for most upper and lower ranges except the less than 1000 and greater than 50000. I also summed up the values and created percentages for each outcome based on these values. When created the line chart, the data was reversed of how I wanted to look at it. That is to say that the percentage was showing on the x-axis and the ranges were showing on the y-axis. I switched rows/columns to ensure I got the same view as the challenge suggested.
 
